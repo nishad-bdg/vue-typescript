@@ -1,11 +1,18 @@
 import Vue from "vue";
-import Vuex from "vuex";
+import Vuex, { Store } from "vuex";
+
+import Tutorial from '@/store/modules/tutorial'
 
 Vue.use(Vuex);
 
 export default new Vuex.Store({
-  state: {},
+  state: {
+  },
   mutations: {},
   actions: {},
-  modules: {}
+  modules: {
+    Tutorial
+  }
 });
+
+
